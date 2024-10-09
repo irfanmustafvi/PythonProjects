@@ -1,4 +1,4 @@
-## Guess the Correct Numbers
+## Guess the Correct Numbers in Five Attempts
 
 ## Import the random module to generate random numbers
 import random
