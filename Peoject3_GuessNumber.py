@@ -1,15 +1,15 @@
 ## Guess the Correct Numbers in Five Attempts
 
-## Import the random module to generate random numbers
+## Generate random numbers import library
 import random
 
-## Generate a random number between 1 and 100
+## Select random number between 1 and 100
 secret_number = random.randint(1, 100)
 
-## Create a variable to hold the number of times a player guessed a number
+## Use variable to hold the number of times a player guessed a number
 attempts = 0
 
-## Create a variable to set the maximum number of guesses before the game ends
+## Use variable to set the maximum number of guesses before the game ends
 max_attempts = 5
 
 ## Output a message that welcomes the player and tells them how to play
@@ -17,7 +17,7 @@ print("Welcome to the Guess the Number Game!")
 print("I'm thinking of a number between 1 and 100.")
 print("Can you guess it within", max_attempts, "attempts?")
 
-## Execute the code in the loop while `attempts` is less than `max_attempts`
+## Code is executed in the loop while `attempts` is less than `max_attempts`
 while attempts < max_attempts:  # Output the player's remaining number of attempts
     print("\nAttempts remaining:", max_attempts - attempts)
 
