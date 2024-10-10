@@ -1,52 +1,55 @@
-# names = []
-# ages = []
-# emails = []
+names = []
+ages = []
+emails = []
 
-# name = input("Name: ")
-# age = input("Age: ")
-# email = input("Email: ")
+name = input("Name: ")
+age = input("Age: ")
+email = input("Email: ")
 
-# names.append(name)
-# ages.append(age)
-# emails.append(email)
+names.append(name)
+ages.append(age)
+emails.append(email)
 
-# print(names, ages, emails)  # Output ['asad'] ['25'] ['asad123@gmail.com']
+print(names, ages, emails)  # Output ['asad'] ['25'] ['asad123@gmail.com']
 #######################################################################################
-# names = []
-# ages = []
-# emails = []
+names = []
+ages = []
+emails = []
 
-# for i in range(3):
-#     print(i + 1, "Input")
-#     name = input("Name: ")
-#     age = input("Age: ")
-#     email = input("Email: ")
+for i in range(3):
+    print(i + 1, "Input")
+    name = input("Name: ")
+    age = input("Age: ")
+    email = input("Email: ")
 
-#     names.append(name)
-#     ages.append(age)
-#     emails.append(email)
+    names.append(name)
+    ages.append(age)
+    emails.append(email)
 
-# print(
-#     names, ages, emails
-# )  # Output ['das', 'util', 'horn'] ['45', '54', '51'] ['das@hotmail.com', 'utl@gmail.com', 'horn@gmail.com']
+print(
+    names, ages, emails
+)  # Output ['das', 'util', 'horn'] ['45', '54', '51'] ['das@hotmail.com', 'utl@gmail.com', 'horn@gmail.com']
 ################################################################################################################
 ## Dictionary
-# people = []
+people = []
 
-# for i in range(3):
-#     print(i + 1, "Input")
-#     name = input("Name: ")
-#     age = input("Age: ")
-#     email = input("Email: ")
+for i in range(3):
+    print(i + 1, "Input")
+    name = input("Name: ")
+    age = input("Age: ")
+    email = input("Email: ")
 
-#     person = {"name": name, "age": age, "email": email}
-#     people.append(person)
+    person = {"name": name, "age": age, "email": email}
+    people.append(person)
 
-# print(people)  # Output Dictionaries inside lists>> [{'name': 'hit', 'age': '50', 'email': 'hit@hotmail.com'}, {'name': 'get', 'age': '25', 'email': 'get@newmail.com'}, {'name': 'said', 'age': '45', 'email': 'said@oldmail.com'}]
+print(
+    people
+)  # Output Dictionaries inside lists>> [{'name': 'hit', 'age': '50', 'email': 'hit@hotmail.com'}, {'name': 'get', 'age': '25', 'email': 'get@newmail.com'}, {'name': 'said', 'age': '45', 'email': 'said@oldmail.com'}]
 
 
 #######################################################################################
 ## Adding Functionality to the System (Add, Del, Search)
+###Complete project below
 
 import json
 
