@@ -1,0 +1,131 @@
+
+{
+    "questions": [
+        {
+            "question": "1. Which Python library is commonly used for interacting with AWS services?",
+            "options": ["requests", "boto3", "flask", "paramiko"],
+            "answer": "boto3"
+        },
+        {
+            "question": "2. What is the purpose of the 'subprocess' module in Python?",
+            "options": [
+                "To manage subprocesses like threading",
+                "To handle HTTP requests",
+                "To spawn new processes and connect to their input/output",
+                "To monitor CPU usage"
+            ],
+            "answer": "To spawn new processes and connect to their input/output"
+        },
+        {
+            "question": "3. Which Python library can be used to create and manage Docker containers?",
+            "options": ["docker-py", "paramiko", "psutil", "requests"],
+            "answer": "docker-py"
+        },
+        {
+            "question": "4. What function would you use to read a file line by line in Python?",
+            "options": ["file.read()", "file.readline()", "file.readlines()", "for line in file:"],
+            "answer": "for line in file:"
+        },
+        {
+            "question": "5. Which command in Python would you use to execute a shell command within a script?",
+            "options": ["os.system()", "exec()", "subprocess.run()", "os.run()"],
+            "answer": "subprocess.run()"
+        },
+        {
+            "question": "6. Which Python tool would you use to run unit tests for your scripts?",
+            "options": ["pytest", "unittest", "nose", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "7. What is the role of the 'yaml' library in DevOps automation?",
+            "options": [
+                "To create web applications",
+                "To interact with cloud providers",
+                "To parse and manage configuration files",
+                "To handle database connections"
+            ],
+            "answer": "To parse and manage configuration files"
+        },
+        {
+            "question": "8. Which Python module can automate SSH connections for server configuration?",
+            "options": ["requests", "subprocess", "paramiko", "docker-py"],
+            "answer": "paramiko"
+        },
+        {
+            "question": "9. Which Python library is used for Kubernetes API interaction?",
+            "options": ["docker-py", "boto3", "psutil", "kubernetes-client"],
+            "answer": "kubernetes-client"
+        },
+        {
+            "question": "10. What is the purpose of 'argparse' in Python scripts?",
+            "options": [
+                "To parse command-line arguments",
+                "To handle API requests",
+                "To interact with Docker containers",
+                "To manage cloud instances"
+            ],
+            "answer": "To parse command-line arguments"
+        },
+        {
+            "question": "11. Which of the following commands is used to install third-party Python libraries?",
+            "options": ["python install", "pip install", "apt-get install", "pkg install"],
+            "answer": "pip install"
+        },
+        {
+            "question": "12. Which Python function is commonly used for handling exceptions?",
+            "options": ["try", "except", "raise", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "13. Which Python module would you use to manage environment variables?",
+            "options": ["os.system", "os.path", "os.environ", "subprocess"],
+            "answer": "os.environ"
+        },
+        {
+            "question": "14. Which Python tool is best suited for multi-server task automation using SSH?",
+            "options": ["fabric", "psutil", "docker-py", "pytest"],
+            "answer": "fabric"
+        },
+        {
+            "question": "15. What is the use of 'os.environ' in Python?",
+            "options": [
+                "To manage environment variables",
+                "To run OS-level commands",
+                "To set file permissions",
+                "To create new directories"
+            ],
+            "answer": "To manage environment variables"
+        },
+        {
+            "question": "16. Which Python library can be used to monitor system performance metrics like CPU, memory, and disk usage?",
+            "options": ["paramiko", "psutil", "requests", "docker-py"],
+            "answer": "psutil"
+        },
+        {
+            "question": "17. Which Python library is used to send HTTP requests to a web API?",
+            "options": ["boto3", "requests", "yaml", "paramiko"],
+            "answer": "requests"
+        },
+        {
+            "question": "18. What is the purpose of Python's 'psutil' library in DevOps automation?",
+            "options": [
+                "To create and manage Docker containers",
+                "To monitor system performance",
+                "To handle YAML configuration files",
+                "To run unit tests"
+            ],
+            "answer": "To monitor system performance"
+        },
+        {
+            "question": "19. Which of the following Python tools helps interact with cloud providers like AWS?",
+            "options": ["docker-py", "paramiko", "boto3", "requests"],
+            "answer": "boto3"
+        },
+        {
+            "question": "20. Which Python command-line tool is used for testing and managing Kubernetes clusters?",
+            "options": ["kubectl", "docker-py", "pytest", "boto3"],
+            "answer": "kubectl"
+        }
+    ]
+}
+    
